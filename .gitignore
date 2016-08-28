@@ -1,0 +1,8 @@
+.DS_STORE
+.ipynb_checkpoints
+*.png
+*.txt
+*.csv
+*.geojson*
+*.dat
+*.mp4
