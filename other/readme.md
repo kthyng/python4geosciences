@@ -1,0 +1,1 @@
+Class is run using [jupyter notebooks](http://jupyter.org/) for class materials and homeworks, [jupyterhub](https://jupyterhub.readthedocs.io/en/latest/) for serving the notebooks, and [nbgrader](https://nbgrader.readthedocs.io/en/stable/) for distributing and helping grade the homework.
