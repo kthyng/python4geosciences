@@ -1,5 +1,25 @@
 # Announcements
 
+## 9/22/16:
+
+Homework 1:
+
+* There is a range of how people did on a quick look at the homeworks
+* General notes:
+
+ * start early! The homework is meant to take time. This is where a lot of your learning can take place.
+ * starting early also gives you a chance to ask questions along the way when I still have time to help you.
+ * work together.
+
+* We'll have an extra homework session today or tomorrow — I will email after class with the time and place. I can't accommodate everyone, so please let me know if you can actually make it to part of the times listed too. [Doodle poll]( http://doodle.com/poll/ysm6x4by9wpbu4up)
+
+
+Homework 2
+
+* Pushed back because of this extra homework session to next Thursday.
+* Just note that this further decouples when we are talking about the material with when the homework is due — but you should be working on the homework as we go through the material anyway.
+
+
 ## 9/15/16:
 
 * hw1 is now due Tuesday September 20th and hw2 is due Tuesday September 27th. The syllabus in this repo has been updated to show this.
