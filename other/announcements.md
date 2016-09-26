@@ -1,5 +1,19 @@
 # Announcements
 
+## 9/27/16:
+
+Feedback from your homework is available on copano. Login to the server and go to the `feedback` directory. Click through to a homework notebook and open it. You'll see the html unrendered. A workaround to this is to alter the url. You will see in the browser address that it says `edit` somewhere, and you want to change this to `files` in order to see the html nicely rendered. Or, from something like:
+
+https://copano.tamu.edu:8000/user/pythontest/edit/feedback/hw1/partA.html
+
+to:
+
+https://copano.tamu.edu:8000/user/pythontest/files/feedback/hw1/partA.html
+
+
+These files will then show your overall points, points for each problem, and potentially comments from me for anything I needed to manually grade or look at.
+
+
 ## 9/22/16:
 
 Homework 1:
