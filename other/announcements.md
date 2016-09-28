@@ -1,5 +1,13 @@
 # Announcements
 
+## 9/29/16:
+
+* hw2 due tonight at midnight. You can always submit more than once, so make sure you submit before midnight for sure!
+* hw3 should be available tomorrow. I'm looking into making the homework assignments shorter and due every Thursday night, so the syllabus will be changing accordingly.
+* Since we are taking class time to work on the homework, you should go through the materials on your own as well.
+* We'll continue on `matplotlib` today and whatever we don't get to in the materials, you should especially go through on your own!
+
+
 ## 9/27/16:
 
 Feedback from your homework is available on copano. Login to the server and go to the `feedback` directory. Click through to a homework notebook and open it. You'll see the html unrendered. A workaround to this is to alter the url. You will see in the browser address that it says `edit` somewhere, and you want to change this to `files` in order to see the html nicely rendered. Or, from something like:
