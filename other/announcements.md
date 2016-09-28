@@ -2,6 +2,7 @@
 
 ## 9/29/16:
 
+* If you are struggling with the basics in this class, consider taking some or all of the [Code Academy class in Python](https://www.codecademy.com/learn/learn-python). It is free online and is interactive so it is another way for you to get feedback on your code.
 * hw2 due tonight at midnight. You can always submit more than once, so make sure you submit before midnight for sure!
 * hw3 should be available tomorrow. I'm looking into making the homework assignments shorter and due every Thursday night, so the syllabus will be changing accordingly.
 * Since we are taking class time to work on the homework, you should go through the materials on your own as well.
