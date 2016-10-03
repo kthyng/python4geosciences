@@ -1,5 +1,10 @@
 # Announcements
 
+## 10/4/16:
+
+* hw2 feedback is available now
+
+
 ## 9/29/16:
 
 * If you are struggling with the basics in this class, consider taking some or all of the [Code Academy class in Python](https://www.codecademy.com/learn/learn-python). It is free online and is interactive so it is another way for you to get feedback on your code.
