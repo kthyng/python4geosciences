@@ -3,7 +3,7 @@
 ## 10/4/16:
 
 * hw2 feedback is available now
-
+* do not use `pandas` on hw3
 
 ## 9/29/16:
 
