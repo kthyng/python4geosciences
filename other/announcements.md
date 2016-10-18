@@ -1,5 +1,25 @@
 # Announcements
 
+## 10/18/16:
+
+* hw3 and hw4 feedback available
+* hw5 due this Thursday, and there are two more regular hws after that (hw6, hw7)
+* For the end of the semester, the undergrads will have hw8, due Dec. 1st which will be a smaller version of the graduate student project, but without a presentation.
+* Grad students will have their projects due Dec. 1st and 6th, when they present them in class.
+ * Grad students can work together, but will present for 10 minutes per person in the presentation.
+* For both undergrads and grads:
+ * Choose an interesting dataset to analyze in depth
+ * Your focus may be on the data in particular, while diving a bit into a python package or two, or it may be on a python package in particular, with some data.
+ * Create a high-quality Jupyter notebook to write up your project. It should be laid out like a report with headers, it should be nice-looking, and it should seamlessly integrate writing and code to explain what you have worked on. Be creative.
+  * Grad students: You should present this notebook in class (not additional slides)
+ * Undergrads will submit this; graduate students will present in class and receive feedback.
+ * All students will attend the presentations on the last two days of class and give feedback as part of their grade
+ * Email me your idea for your hw8/project by Tuesday November 8th.
+ * Undergrads: Explain the dataset and/or package you are using, then read in the data, and make and present 3-5 interesting plots.
+ * Graduate students: Explain the dataset and/or packages you are using, then, per person, make 6-8 interesting plots that investigate something in the data/code. This should be enough material to discuss for 10 minutes/person.
+ * Remember that we are a general audience that is connected by Python, so should data in a general-interest way and talk about the code you use, too.
+
+
 ## 10/4/16:
 
 * hw2 feedback is available now
