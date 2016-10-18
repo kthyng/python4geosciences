@@ -1,5 +1,10 @@
 # Announcements
 
+## 10/18/16:
+
+* hw3 and hw4 feedback available
+
+
 ## 10/4/16:
 
 * hw2 feedback is available now
