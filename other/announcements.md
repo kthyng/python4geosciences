@@ -1,5 +1,11 @@
 # Announcements
 
+## 11/1/16:
+
+* I sent out a doodle poll last night where grad students can sign up for when they will present on their project. If you are presenting as a group, sign into the doodle poll together.
+* If you are in College Station, you will need to have your notebook presentation finished and shared with me somehow so you can present from my computer over Blackboard Collaborate. If you are in Galveston, you should be able to take control of the software and present through your own laptop.
+
+
 ## 10/18/16:
 
 * hw3 and hw4 feedback available
