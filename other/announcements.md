@@ -1,5 +1,10 @@
 # Announcements
 
+## 11/3/16:
+
+* hw6 is now graded
+* hw7, due Thursday night, is the last formal homework of the semester. After this, you should be working on your project (grad students) or your final self-organized exploratory homework (undergrads)
+
 ## 11/1/16:
 
 * I sent out a doodle poll last night where grad students can sign up for when they will present on their project. If you are presenting as a group, sign into the doodle poll together.
