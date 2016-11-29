@@ -1,5 +1,13 @@
 # Announcements
 
+## 11/29/16:
+
+* Undergrads: email me presentation and materials by Thursday night
+* Grads: Either be ready to send me all your materials by Wednesday night or be ready to  present through Blackboard Collaborate on your laptop
+ * Which way are you planning?
+ * You need to practice ahead of time if you plan to use Collaborate. Some help in in the "other" directory.
+* Remember that feedback is required from each student for each graduate student. Check out the [feedback form](https://goo.gl/5jc6qO): https://goo.gl/5jc6qO
+
 ## 11/3/16:
 
 * hw6 is now graded
