@@ -1,11 +1,10 @@
 #!/bin/bash
 
-for id in `cat /root/pgs2017_g /root/pgs2017_ug` ; do 
-    mkdir /d2/home/$id/notebooks ; 
-    cp -rf python4geosciences /d2/home/$id/notebooks ; 
-    rm -rf /d2/home/$id/notebooks/python4geosciences/.git
-    chown -R $id:pythonspring2017 /d2/home/$id/notebooks ; 
+users1=$1
+users2=$2
+
+for id in `cat $users1 $users2` ; do
+    cp -rf ../../python4geosciences /home/$id ;
+    rm -rf /home/$id/python4geosciences/.git
+    chown -R $id:$id /home/$id ;
 done
-
-
-

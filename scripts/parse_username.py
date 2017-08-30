@@ -1,6 +1,10 @@
 '''
+Make user names
+
 Example usage:
-python parse_username.py undergrads.csv
+python3 parse_username.py undergrads.csv > users_undergrads.txt
+python3 parse_username.py grads-600.csv > users_grads.txt
+python3 parse_username.py grads-650.csv >> users_grads.txt
 '''
 
 import pandas as pd
@@ -18,4 +22,4 @@ for email in ds['EMAIL']:
     assert domain=='email.tamu.edu', 'email needs to be TAMU netID'
     print(username)
 
-# copy and paste into a file by undergrad vs. grad to be used in disperse_...
+# redirect into a file by undergrad vs. grad to be used in disperse_...

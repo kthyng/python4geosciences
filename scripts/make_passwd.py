@@ -1,3 +1,13 @@
+'''
+Generate passwords
+
+Example usage:
+wc -l < users_undergrads.txt  # count number of users
+python3 make_passwd.py --passwords [number of users] > passwds_undergrads.txt
+wc -l < users_grads.txt  # count number of users
+python3 make_passwd.py --passwords [number of users] > passwds_grads.txt
+'''
+
 from random import shuffle
 import argparse
 
@@ -9,8 +19,10 @@ parser.add_argument('--length', default=3,
 
 args = parser.parse_args()
 
+
+
 # load in list of words
-f = open('../words.txt')
+f = open('../../wordlist.txt')
 words = f.readlines()
 f.close()
 

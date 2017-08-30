@@ -1,5 +1,7 @@
 # Set up for class
 
+Many of these steps can be run together in run.sh.
+
 ## Set up student accounts
 
 1. Download class rosters for all sections into csv files that are put into this directory.
@@ -11,7 +13,7 @@
 
 ## Set up nbgrader_config.py
 
-1. Generate student entries for the file with `make_student_dict_entries.py`.
+1. Generate student entries for the file with `make_student_dict_entries.py` and put into config file.
 
 
 ## Disperse materials to students
