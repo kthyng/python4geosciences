@@ -24,3 +24,10 @@ python3 make_passwd.py --passwords $num > passwds_grads.txt
 
 # Email students their username and password with `email_passwords.py`.
 python3 email_passwords.py
+
+# Make student entries to put into nbgrader file
+python3 make_student_dict_entries.py $ugroster
+python3 make_student_dict_entries.py $groster1
+python3 make_student_dict_entries.py $groster2
+
+# disperse class materials to students
