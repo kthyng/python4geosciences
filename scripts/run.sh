@@ -31,3 +31,7 @@ python3 make_student_dict_entries.py $groster1
 python3 make_student_dict_entries.py $groster2
 
 # disperse class materials to students
+sudo ./disperse_python4geosciences_materials.sh users_undergrads.txt users_grads.txt
+
+# Later, disperse another file
+# sudo ./disperse_python4geosciences_file.sh users_undergrads.txt users_grads.txt [filename]

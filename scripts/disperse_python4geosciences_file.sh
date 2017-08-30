@@ -2,11 +2,13 @@
 # how to run:
 # disperse_python4geosciences_file.sh [filename]
 
-file=$1
-echo copyng $file
+users1=$1
+users2=$2
+file=$3
 
-for id in `cat /root/pgs2017_g /root/pgs2017_ug` ; do
-    cp -rf $file /d2/home/$id/notebooks/python4geosciences/materials ;
-    chown $id:pythonspring2017 /d2/home/$id/notebooks/python4geosciences/materials/${file##*/} ;
+for id in `cat $users1 $users2` ; do
+    cp -rf $file /home/$id/python4geosciences/materials ;
+    # removes path up to the file itself
+    chown $id:$id /home/$id/python4geosciences/materials/${file##*/} ;
     echo copied $file for $id
 done
