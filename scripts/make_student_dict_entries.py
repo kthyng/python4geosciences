@@ -1,7 +1,7 @@
 import pandas as pd
 import argparse
 
-parser = argparse.ArgumentParser(description='Generate random passwords based on english words.')
+parser = argparse.ArgumentParser(description='')
 parser.add_argument('filename',
                     help='Name of student csv file to parse')
 args = parser.parse_args()

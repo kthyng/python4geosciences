@@ -21,3 +21,6 @@ python3 make_passwd.py --passwords $num > passwds_grads.txt
 
 # If you mess it up and have to start over, remove user accounts:
 # ./remove_users.sh users_undergrads.txt users_grads.txt
+
+# Email students their username and password with `email_passwords.py`.
+python3 email_passwords.py
