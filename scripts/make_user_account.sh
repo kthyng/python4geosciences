@@ -13,13 +13,14 @@ done
 # echo "${users[@]}"
 
 # put passwords into an array
+pass=()
 for pass in `cat $pass1 $pass2` ; do
     pass+=("$pass")
 done
 
 for ((i=0;i<${#users[@]};i++)); do
-    # echo $i
-    # echo ${users[$i]}
-    # echo ${pass[$i]}
-    sudo adduser ${users[i]} -p ${pass[i]};
+    echo $i
+    echo ${users[$i]}
+    echo ${pass[$i]}
+    # sudo adduser ${users[$i]} -p ${pass[$i]};
 done
