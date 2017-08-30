@@ -1,5 +1,7 @@
 # Set up for class
 
+Many of these steps can be run together in run.sh.
+
 ## Set up student accounts
 
 1. Download class rosters for all sections into csv files that are put into this directory.

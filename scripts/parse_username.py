@@ -1,4 +1,6 @@
 '''
+Make user names
+
 Example usage:
 python3 parse_username.py undergrads.csv > users_undergrads.txt
 python3 parse_username.py grads-600.csv > users_grads.txt
