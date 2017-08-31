@@ -17,13 +17,13 @@ num="$(wc -l < users_grads.txt)"  # count number of users
 python3 make_passwd.py --passwords $num > passwds_grads.txt
 
 # Make user accounts
- ./make_user_account.sh users_undergrads.txt users_grads.txt passwds_undergrads.txt passwds_grads.txt
+python3 make_user_accounts.py
 
 # If you mess it up and have to start over, remove user accounts:
 # ./remove_users.sh users_undergrads.txt users_grads.txt
 
-# Email students their username and password with `email_passwords.py`.
-python3 email_passwords.py
+# # Email students their username and password with `email_passwords.py`.
+# python3 email_passwords.py
 
 # Make student entries to put into nbgrader file
 python3 make_student_dict_entries.py $ugroster
