@@ -34,3 +34,17 @@ for user, passwd in zip(fuug.readlines(), fpug.readlines()):
     # # -s is subject, email address is who to send to, after <<< is body of message
     command = 'mail -s "' + subject + '" ' + email + ' <<< "' + message + '"'
     os.system(command)
+    print('emailed ' + user)
+
+
+for user, passwd in zip(fug.readlines(), fpg.readlines()):
+
+    # remove new line at end
+    user = user.split()[0]
+    passwd = passwd.split()[0]
+    email = '{username}@email.tamu.edu'.format(username=user)
+    message = text.format(username=user, password=passwd)
+    # # -s is subject, email address is who to send to, after <<< is body of message
+    command = 'mail -s "' + subject + '" ' + email + ' <<< "' + message + '"'
+    os.system(command)
+    print('emailed ' + user)
