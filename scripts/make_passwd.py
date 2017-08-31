@@ -4,8 +4,6 @@ Generate passwords
 Example usage:
 wc -l < users_undergrads.txt  # count number of users
 python3 make_passwd.py --passwords [number of users] > passwds_undergrads.txt
-wc -l < users_grads.txt  # count number of users
-python3 make_passwd.py --passwords [number of users] > passwds_grads.txt
 '''
 
 from random import shuffle
@@ -16,10 +14,7 @@ parser.add_argument('--passwords', type=int, default=1,
                     help='Number of passwords to return')
 parser.add_argument('--length', default=3,
                     help='Number of words in each password')
-
 args = parser.parse_args()
-
-
 
 # load in list of words
 f = open('../../wordlist.txt')

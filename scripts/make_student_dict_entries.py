@@ -1,8 +1,6 @@
 '''
 Usage:
 python3 make_student_dict_entries.py undergrads.csv
-python3 make_student_dict_entries.py grads-600.csv
-python3 make_student_dict_entries.py grads-650.csv
 '''
 
 
@@ -10,8 +8,7 @@ import pandas as pd
 import argparse
 
 parser = argparse.ArgumentParser(description='make student entries for nbgrader_config.py file.')
-parser.add_argument('filename',
-                    help='Name of student csv file to parse')
+parser.add_argument('filename', help='Name of student csv file to parse')
 args = parser.parse_args()
 
 ds = pd.read_csv(args.filename)

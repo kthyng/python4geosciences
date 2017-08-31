@@ -4,9 +4,10 @@
 # usage: ./remove_users.sh users_undergrads.txt users_grads.txt
 # also good for end of class
 
-users1=$1
-users2=$2
+name=$1
+users=users_$name.txt
 
-for id in `cat $users1 $users2` ; do
+for id in `cat $users` ; do
     sudo userdel -r $id
+    # echo $id
 done

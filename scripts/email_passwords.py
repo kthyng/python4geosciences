@@ -1,9 +1,13 @@
 import os
+import argparse
 
-fuug = open('users_undergrads.txt')
-fug = open('users_grads.txt')
-fpug = open('passwds_undergrads.txt')
-fpg = open('passwds_grads.txt')
+parser = argparse.ArgumentParser(description='Make user accounts given usernames and passwords.')
+parser.add_argument('name', help='name which is used in assumed users and passwords file name', type=str)
+args = parser.parse_args()
+
+name = args.name
+fu = open('users_' + name + '.txt')
+fp = open('passwds_'+ name + '.txt')
 
 text = '''
 Python for Geosciences
@@ -24,20 +28,7 @@ Dr. Thyng
 
 subject = 'Python class username and password'
 
-for user, passwd in zip(fuug.readlines(), fpug.readlines()):
-
-    # remove new line at end
-    user = user.split()[0]
-    passwd = passwd.split()[0]
-    email = '{username}@email.tamu.edu'.format(username=user)
-    message = text.format(username=user, password=passwd)
-    # # -s is subject, email address is who to send to, after <<< is body of message
-    command = 'mail -s "' + subject + '" ' + email + ' <<< "' + message + '"'
-    os.system(command)
-    print('emailed ' + user)
-
-
-for user, passwd in zip(fug.readlines(), fpg.readlines()):
+for user, passwd in zip(fu.readlines(), fp.readlines()):
 
     # remove new line at end
     user = user.split()[0]
