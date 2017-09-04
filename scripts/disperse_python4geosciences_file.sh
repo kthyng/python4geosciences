@@ -1,6 +1,8 @@
 #!/bin/bash
 # how to run:
-# disperse_python4geosciences_file.sh [filename]
+# roster=grads.csv
+# name=${roster%.*}  # remove suffix and use for file names
+# sudo ./disperse_python4geosciences_file.sh users_$name.txt ../materials/1_core.ipynb
 
 users=$1
 file=$2
