@@ -29,5 +29,8 @@ python3 make_student_dict_entries.py $roster
 # disperse class materials to students
 sudo ./disperse_python4geosciences_materials.sh users_$name.txt
 
-# Later, disperse another file
+# Later, disperse another materials notebook file
 # sudo ./disperse_python4geosciences_file.sh users_$name.txt [filename]
+
+# or disperse a file to their home directory:
+# sudo ./disperse_nbgrader_file.sh users_$name.txt nbgrader_config.py
