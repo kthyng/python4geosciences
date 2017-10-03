@@ -1,2 +1,4 @@
 .DS_STORE
 .ipynb_checkpoints
+scripts/*.txt
+scripts/*.csv
