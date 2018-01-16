@@ -4,7 +4,7 @@ Many of these steps can be run together in run.sh.
 
 ## Set up student accounts
 
-1. Download class rosters for all sections into csv files that are put into this directory.
+1. Download class rosters for all sections into csv files that are put into this directory. Call them "undergrads.csv" and "grads.csv", etc.
 1. Generate an undergrad and grad student username listing using `parse_username.py`.
 1. Generate an analogous set of files of passwords using `make_passwd.py`.
 1. Make the user accounts with `make_user_account.sh`.
