@@ -29,6 +29,7 @@ python3 make_student_dict_entries.py $roster
 # sudo ./disperse_python4geosciences_materials.sh users_$name.txt
 ## Won't need to do the following if I use git pull
 # Later, disperse another materials notebook file
+# example: sudo ./disperse_python4geosciences_file.sh users_$name.txt ../materials/3_matplotlib.ipynb
 # sudo ./disperse_python4geosciences_file.sh users_$name.txt [filename]
 
 # git clone class repo
