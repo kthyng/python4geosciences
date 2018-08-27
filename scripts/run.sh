@@ -1,9 +1,16 @@
 #!/bin/bash
 
-# rerun this file for all roster csv files
+# Run this script with a command like
+#
+# bash run.sh combined.csv
+#
+# where combined.csv is the intput file to the script.
+# This script is intended to be used on a combined student CSV file.
+# To generate this, get the CSV files for all of the students and use a text
+# editor to copy the data rows into a common file. 
 
 # put on the right side of the equal sign the name of the roster file to use
-roster=grads.csv
+roster=$1
 
 name=${roster%.*}  # remove suffix and use for file names
 

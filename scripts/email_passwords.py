@@ -24,7 +24,7 @@ Your username is the same as your TAMU NetID and your password is:
 
 See you in class,
 
-Dr Thyng
+Rob
 '''
 
 subject = 'Python class username and password'
