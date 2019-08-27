@@ -9,7 +9,7 @@ Week 0–2 (Aug 27/29, Sep 3/5/10/12):  Course intro; Python basics — Core lan
 *Homework 00 due Aug 30, hw01 due Sep 6, hw02 due Sep 13*  
 Using Jupyter notebooks and JupyterHub.  Overview of the standard Python programming language, standard data containers (lists, tuples, dictionaries, etc), importing packages, for/while loops, functions, and object oriented programming (objects as containers for data and associated functions).  
 Materials: 
-- [Intro](https://redfish.geos.tamu.edu:8000/user/kthyng/git-pull?repo=https://github.com/kthyng/python4geosciences&subPath=materials/0_intro.ipynb&app=notebook)
+- [Intro](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2F0_intro.ipynb&app=notebook)
 - [Core](https://redfish.geos.tamu.edu:8000/user/kthyng/git-pull?repo=https://github.com/kthyng/python4geosciences&subPath=materials/1_core.ipynb&app=notebook)   
 
 Week 3–4 (Sep 17/19/24/26):  Numerical Python   
