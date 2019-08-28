@@ -12,11 +12,11 @@ fp = open('passwds_'+ name + '.txt')
 text = '''
 Python for Geosciences
 
-You will need a username and password to log into the computer where we will view the class materials and work on the homework assignments. You will only be able to access this off-campus if you use VPN to connect to campus first. You can set up VPN by going to https://connect.tamu.edu, sign in with your netid, and click on the little blue link that says AnyConnect VPN if and when you find that Web-based installation was unsuccessful to install Cisco AnyConnect. Then you can run this application to use your computer as if you are on campus.
+You will need a username and password to log into the computer where we will view the class materials and work on the homework assignments. You will only be able to access this off-campus if you use VPN to connect to campus first. You can set up VPN by going to https://connect.tamu.edu, sign in with your netid, and click on the little blue link that says AnyConnect VPN if and when you find that Web-based installation was unsuccessful to install Cisco AnyConnect. Then you can run this application to use your computer as if you are on campus. This may be slightly complicated by two-factor authentication being introduced.
 
 If you are on campus or if you have successfully logged into VPN, use the following web address to sign into the class server:
 
-    http://redfish.geos.tamu.edu:8000
+    https://redfish.geos.tamu.edu:8000
 
 Your username is the same as your TAMU NetID and your password is:
 
@@ -24,7 +24,7 @@ Your username is the same as your TAMU NetID and your password is:
 
 See you in class,
 
-Rob
+Kristen
 '''
 
 subject = 'Python class username and password'
