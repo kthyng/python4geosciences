@@ -17,6 +17,7 @@ Many of these steps can be run together in run.sh.
 
 
 ## Disperse materials to students
+This shouldn't be necessary anymore if using nbgitpuller
 
 1. Initially: use `disperse_python4geosciences_materials.sh` to copy in the python4geosciences directory.
 1. Later when updating a file: `disperse_python4geosciences_file.sh`.
