@@ -33,7 +33,7 @@ Week 7–9 (Oct 17/22/24/29):  1D time series analysis
 *hw08 due Oct 25, hw09 due Nov 1*  
 pandas, indexing, averaging.  
 Materials: 
-- [pandas, 1d](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2FST_1D_analysis.ipynb&app=notebook)
+- [pandas, 1d](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2F4_pandas.ipynb&app=notebook)
 
 Week 9–10 (Oct 31, Nov 5):  Review  
 *hw10 due Nov 8*  
@@ -43,9 +43,9 @@ Week 10-12 (Nov 7/12/14/19): 2D geospatial plotting
 *hw11 due Nov 15*  
 Cartopy mapping package and shapefiles. xarray: reading and writing NetCDF files locally and over the internet.  
 Materials: 
-- [maps](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2FST_maps.ipynb&app=notebook)
-- [shapefiles on maps](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2FST_shapefiles.ipynb&app=notebook)
-- [netCDF and xarray](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2FST_netcdf.ipynb&app=notebook)
+- [maps](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2F5_maps.ipynb&app=notebook)
+- [shapefiles on maps](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2F7_shapefiles.ipynb&app=notebook)
+- [netCDF and xarray](https://redfish.geos.tamu.edu:8000/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fkthyng%2Fpython4geosciences&subPath=materials%2F6_xarray.ipynb&app=notebook)
 
 Week 12-13 (Nov 21/26, No class Nov 28): Python beyond the notebook  
 Anaconda package installer, iPython for terminal window, writing scripts, Jupyterlab; debugging, unit testing.  
